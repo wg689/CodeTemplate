@@ -42,14 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		295AF3341C8796D900B6F02D /* CodeGenerate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeGenerate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		295AF3341C8796D900B6F02D /* CodeTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		295AF33B1C8796D900B6F02D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		295AF3401C8796D900B6F02D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		295AF3451C8796D900B6F02D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		295AF34A1C8796D900B6F02D /* CodeGenerateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeGenerateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		295AF34A1C8796D900B6F02D /* CodeTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		295AF34E1C8796D900B6F02D /* ViperCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViperCodeTests.m; sourceTree = "<group>"; };
 		295AF3501C8796D900B6F02D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		295AF3551C8796D900B6F02D /* CodeGenerateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeGenerateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		295AF3551C8796D900B6F02D /* CodeTemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeTemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		295AF3591C8796D900B6F02D /* ViperCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViperCodeUITests.m; sourceTree = "<group>"; };
 		295AF35B1C8796D900B6F02D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		295AF36B1C8796F600B6F02D /* NSString+Substring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Substring.h"; sourceTree = "<group>"; };
@@ -113,9 +113,9 @@
 		295AF3351C8796D900B6F02D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				295AF3341C8796D900B6F02D /* CodeGenerate.app */,
-				295AF34A1C8796D900B6F02D /* CodeGenerateTests.xctest */,
-				295AF3551C8796D900B6F02D /* CodeGenerateUITests.xctest */,
+				295AF3341C8796D900B6F02D /* CodeTemplate.app */,
+				295AF34A1C8796D900B6F02D /* CodeTemplateTests.xctest */,
+				295AF3551C8796D900B6F02D /* CodeTemplateUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -220,9 +220,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		295AF3331C8796D900B6F02D /* CodeGenerate */ = {
+		295AF3331C8796D900B6F02D /* CodeTemplate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 295AF35E1C8796D900B6F02D /* Build configuration list for PBXNativeTarget "CodeGenerate" */;
+			buildConfigurationList = 295AF35E1C8796D900B6F02D /* Build configuration list for PBXNativeTarget "CodeTemplate" */;
 			buildPhases = (
 				295AF3301C8796D900B6F02D /* Sources */,
 				295AF3311C8796D900B6F02D /* Frameworks */,
@@ -232,14 +232,14 @@
 			);
 			dependencies = (
 			);
-			name = CodeGenerate;
+			name = CodeTemplate;
 			productName = ViperCode;
-			productReference = 295AF3341C8796D900B6F02D /* CodeGenerate.app */;
+			productReference = 295AF3341C8796D900B6F02D /* CodeTemplate.app */;
 			productType = "com.apple.product-type.application";
 		};
-		295AF3491C8796D900B6F02D /* CodeGenerateTests */ = {
+		295AF3491C8796D900B6F02D /* CodeTemplateTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 295AF3611C8796D900B6F02D /* Build configuration list for PBXNativeTarget "CodeGenerateTests" */;
+			buildConfigurationList = 295AF3611C8796D900B6F02D /* Build configuration list for PBXNativeTarget "CodeTemplateTests" */;
 			buildPhases = (
 				295AF3461C8796D900B6F02D /* Sources */,
 				295AF3471C8796D900B6F02D /* Frameworks */,
@@ -250,14 +250,14 @@
 			dependencies = (
 				295AF34C1C8796D900B6F02D /* PBXTargetDependency */,
 			);
-			name = CodeGenerateTests;
+			name = CodeTemplateTests;
 			productName = ViperCodeTests;
-			productReference = 295AF34A1C8796D900B6F02D /* CodeGenerateTests.xctest */;
+			productReference = 295AF34A1C8796D900B6F02D /* CodeTemplateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		295AF3541C8796D900B6F02D /* CodeGenerateUITests */ = {
+		295AF3541C8796D900B6F02D /* CodeTemplateUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 295AF3641C8796D900B6F02D /* Build configuration list for PBXNativeTarget "CodeGenerateUITests" */;
+			buildConfigurationList = 295AF3641C8796D900B6F02D /* Build configuration list for PBXNativeTarget "CodeTemplateUITests" */;
 			buildPhases = (
 				295AF3511C8796D900B6F02D /* Sources */,
 				295AF3521C8796D900B6F02D /* Frameworks */,
@@ -268,9 +268,9 @@
 			dependencies = (
 				295AF3571C8796D900B6F02D /* PBXTargetDependency */,
 			);
-			name = CodeGenerateUITests;
+			name = CodeTemplateUITests;
 			productName = ViperCodeUITests;
-			productReference = 295AF3551C8796D900B6F02D /* CodeGenerateUITests.xctest */;
+			productReference = 295AF3551C8796D900B6F02D /* CodeTemplateUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -296,7 +296,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 295AF32F1C8796D900B6F02D /* Build configuration list for PBXProject "CodeGenerate" */;
+			buildConfigurationList = 295AF32F1C8796D900B6F02D /* Build configuration list for PBXProject "CodeTemplate" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -309,9 +309,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				295AF3331C8796D900B6F02D /* CodeGenerate */,
-				295AF3491C8796D900B6F02D /* CodeGenerateTests */,
-				295AF3541C8796D900B6F02D /* CodeGenerateUITests */,
+				295AF3331C8796D900B6F02D /* CodeTemplate */,
+				295AF3491C8796D900B6F02D /* CodeTemplateTests */,
+				295AF3541C8796D900B6F02D /* CodeTemplateUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -382,12 +382,12 @@
 /* Begin PBXTargetDependency section */
 		295AF34C1C8796D900B6F02D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 295AF3331C8796D900B6F02D /* CodeGenerate */;
+			target = 295AF3331C8796D900B6F02D /* CodeTemplate */;
 			targetProxy = 295AF34B1C8796D900B6F02D /* PBXContainerItemProxy */;
 		};
 		295AF3571C8796D900B6F02D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 295AF3331C8796D900B6F02D /* CodeGenerate */;
+			target = 295AF3331C8796D900B6F02D /* CodeTemplate */;
 			targetProxy = 295AF3561C8796D900B6F02D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -514,7 +514,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.smapps.ViperCodeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeGenerate.app/Contents/MacOS/CodeGenerate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeTemplate.app/Contents/MacOS/CodeTemplate";
 			};
 			name = Debug;
 		};
@@ -527,7 +527,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.smapps.ViperCodeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeGenerate.app/Contents/MacOS/CodeGenerate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeTemplate.app/Contents/MacOS/CodeTemplate";
 			};
 			name = Release;
 		};
@@ -560,7 +560,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		295AF32F1C8796D900B6F02D /* Build configuration list for PBXProject "CodeGenerate" */ = {
+		295AF32F1C8796D900B6F02D /* Build configuration list for PBXProject "CodeTemplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				295AF35C1C8796D900B6F02D /* Debug */,
@@ -569,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		295AF35E1C8796D900B6F02D /* Build configuration list for PBXNativeTarget "CodeGenerate" */ = {
+		295AF35E1C8796D900B6F02D /* Build configuration list for PBXNativeTarget "CodeTemplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				295AF35F1C8796D900B6F02D /* Debug */,
@@ -578,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		295AF3611C8796D900B6F02D /* Build configuration list for PBXNativeTarget "CodeGenerateTests" */ = {
+		295AF3611C8796D900B6F02D /* Build configuration list for PBXNativeTarget "CodeTemplateTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				295AF3621C8796D900B6F02D /* Debug */,
@@ -587,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		295AF3641C8796D900B6F02D /* Build configuration list for PBXNativeTarget "CodeGenerateUITests" */ = {
+		295AF3641C8796D900B6F02D /* Build configuration list for PBXNativeTarget "CodeTemplateUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				295AF3651C8796D900B6F02D /* Debug */,

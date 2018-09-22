@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/wanggang/Downloads/ViperCode-master/CodeGenerate.xcodeproj">
+      location = "self:/Users/wanggang/CodeTemplate/CodeTemplate.xcodeproj">
    </FileRef>
 </Workspace>
